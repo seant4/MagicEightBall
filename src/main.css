@@ -1,0 +1,32 @@
+body {
+    background: black;
+    color: white;
+    text-align: center;  
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    font-size:larger; 
+}
+div{
+    background: gray;
+    width: 20em; /* em is one M letter */
+    display:inline-block; /*Treat is like any other text */
+    border-style:solid;
+    border-radius: 2em;
+    padding: 1em;
+    margin: 1em;
+}
+img {
+    width: 10em;
+}
+
+#question{
+    font-ffamily: sans-serif;
+    color:white;
+
+}
+#answer{
+    
+}
+
+[contenteditable]{
+    outline:none;
+}
